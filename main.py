@@ -1,6 +1,5 @@
 import os, sys
 MainFolderDir = os.getcwd()
-sys.path.append(MainFolderDir + "\\Data\\PIP Packages")
 import urllib.request
 from bs4 import BeautifulSoup
 import requests
